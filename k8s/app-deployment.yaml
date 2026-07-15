@@ -4,7 +4,7 @@ metadata:
   name: springboot-app
   namespace: dev
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: springboot-app
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: springboot-app
-        image: your-dockerhub-username/springboot-app:latest
+        image: jagadeesh9088/employee-database-managementsystems:appimage 
         ports:
         - containerPort: 8080
         env:
