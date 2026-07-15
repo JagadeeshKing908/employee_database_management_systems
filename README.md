@@ -36,6 +36,7 @@ Authentication: Session-based login
 
 📂 Project Structure
 ---------------------
+```bash
 
 src/main/java/com/example/demo
 │
@@ -57,12 +58,13 @@ src/main/resources/templates
 ├── form.html
 └── employee-dashboard.html
 
+```
 🧑‍💻 Roles
 ----------
 
-Role	Access
-ADMIN	Full CRUD access
-EMPLOYEE	View dashboard & update skills
+- Role	Access
+- ADMIN	Full CRUD access
+- EMPLOYEE	View dashboard & update skills
 
 
 Run Application :-
@@ -70,7 +72,7 @@ Run Application :-
 Created docker conatiners with docker and deployed in docker swarm
 
 
-📌 Key Endpoints
+#### 📌 Key Endpoints
 
 Endpoint	Description
 /login	      Login page
