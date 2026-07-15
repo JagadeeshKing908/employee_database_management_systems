@@ -1,2 +1,17 @@
+### Manual creation
+
+```bash
+# Create table normally using docker
+docker run -d \
+  --name db \
+  -e MYSQL_ROOT_PASSWORD=123 \
+  -e MYSQL_DATABASE=employeedb \
+  -p 3306:3306 \
+  mysql:8.0
+
+# To insert values for first login
+
 INSERT INTO employee (email, password, role)
 VALUES ('admin@gmail.com', '123', 'ADMIN');
+
+```
