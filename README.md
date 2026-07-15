@@ -10,29 +10,29 @@ This application supports role-based login (ADMIN / EMPLOYEE) and provides CRUD 
 👨‍💼 Admin Features :-
 -----------------
 
-Add new employees
-View all employees
-Edit employee details
-Delete employees
-Search & filter employees (by name, department)
-Manage roles and designations
+- Add new employees
+- View all employees
+- Edit employee details
+- Delete employees
+- Search & filter employees (by name, department)
+- Manage roles and designations
 
 👨‍💻 Employee Features
 --------------------
 
-Login dashboard
-View personal profile
-Update skills
-View salary, manager, designation, department
+- Login dashboard
+- View personal profile
+- Update skills
+- View salary, manager, designation, department
 
 🏗️ Tech Stack
 --------------
 
-Backend: Spring Boot (MVC)
-Frontend: Thymeleaf, Bootstrap 5
-Database: MySQL
-ORM: Spring Data JPA
-Authentication: Session-based login
+- Backend: Spring Boot (MVC)
+- Frontend: Thymeleaf, Bootstrap 5
+- Database: MySQL
+- ORM: Spring Data JPA
+- Authentication: Session-based login
 
 📂 Project Structure
 ---------------------
@@ -86,12 +86,12 @@ Endpoint	Description
 🧠 Future Improvements :--
 ------------------------
 
-JWT authentication
-File upload (profile images / documents)
-Role-based access control (Spring Security)
-Pagination for employee table
-Audit logs
-REST API version
+- JWT authentication
+- File upload (profile images / documents)
+- Role-based access control (Spring Security)
+- Pagination for employee table
+- Audit logs
+- REST API version
 
 
 👨‍💻 Author Details :
