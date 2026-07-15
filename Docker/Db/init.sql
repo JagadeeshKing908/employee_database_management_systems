@@ -5,6 +5,8 @@ CREATE TABLE employee (
     department VARCHAR(100)
 );
 
+INSERT INTO employee (email, password, role)
+VALUES ('admin@gmail.com', '123', 'ADMIN');
+
 INSERT INTO employee(name,email,department)
-VALUES
-('Jagadeesh','jagadeesh@gmail.com','DevOps');
+VALUES('Jagadeesh','jagadeesh@gmail.com','DevOps');
