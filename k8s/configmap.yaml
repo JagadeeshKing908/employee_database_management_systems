@@ -4,6 +4,6 @@ metadata:
   name: app-config
   namespace: dev
 data:
-  DB_HOST: mysql-service
+  DB_HOST: employeedb
   DB_PORT: "3306"
-  DB_NAME: mydb
+  DB_NAME: employeedb
