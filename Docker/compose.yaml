@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   db:
-    image: mysql:8
-    container_name: db
+    image: jagadeesh9088/employee-database-managementsystems:dbimage 
+    container_name: employeedb
     environment:
       MYSQL_ROOT_PASSWORD: 123
       MYSQL_DATABASE: employeedb
@@ -11,8 +11,8 @@ services:
       - "3306:3306"
 
   app:
-    build: .
-    container_name: app
+    image: jagadeesh9088/employee-database-managementsystems:appimage
+    container_name: employeeapp
     ports:
       - "8080:8080"
     depends_on:
