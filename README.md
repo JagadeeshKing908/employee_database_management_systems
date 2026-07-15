@@ -73,7 +73,7 @@ Created docker conatiners with docker and deployed in docker swarm
 
 
 #### 📌 Key Endpoints
-
+```bash
 Endpoint	Description
 /login	      Login page
 /admin	      Admin dashboard
@@ -82,6 +82,7 @@ Endpoint	Description
 /edit/{id}	  Edit employee
 /delete/{id}	Delete employee
 /employee/dashboard	Employee dashboard
+```
 
 🧠 Future Improvements :--
 ------------------------
